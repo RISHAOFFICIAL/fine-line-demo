@@ -3,101 +3,117 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fine Line Non-Alcoholic Spirits | Zero Proof. Prebiotics. Born in Detroit.</title>
-<meta name="description" content="Fine Line is a Detroit-born zero-proof spirit infused with prebiotics. Vodka and tequila alternatives that let you raise a glass without sacrificing your health. Vegan, gluten-free, 0 calories.">
+<title>Fine Line Non-Alcoholic Spirits | Zero Proof Vodka &amp; Tequila with Prebiotics | Detroit</title>
+<meta name="description" content="Fine Line is a Detroit-born non-alcoholic spirits brand. Zero proof vodka and zero proof tequila infused with prebiotics. Zero alcohol, zero calories, vegan, gluten-free. Shop the collection, explore mocktail recipes, and find Fine Line near you.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
-    --olive:#565B2E; --olive-deep:#2E3319; --olive-soft:#7A7F52;
+    --olive-deep:#2E3319; --olive:#565B2E; --sage:#7A7F52;
     --cream:#F7F2E8; --paper:#EFE7D5; --sand:#E4DAC2;
+    --rust:#C25E3A; --rust-deep:#A84E2E;
+    --plum:#3D2B3D; --plum-deep:#2C1F2C;
     --ink:#23241A; --muted:#6E6A58; --line:#D8CFC0;
-    --sky:#C9DCE8; --white:#fff;
+    --white:#fff;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{font-family:'Outfit',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--cream);line-height:1.7;font-size:16px;font-weight:300}
-  h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--olive-deep);line-height:1.08}
+  body{font-family:'Instrument Sans',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:16px}
+  h1,h2,h3,.display{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;line-height:.95;letter-spacing:-.02em}
+  .serif-i{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400}
   a{color:inherit;text-decoration:none}
   img{max-width:100%;display:block}
-  .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
-  .rule{border:none;border-top:1px solid var(--line)}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
 
-  /* Announcement */
-  .announce{background:var(--olive-deep);color:#E8E2CF;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:10px 16px}
-  .announce span{color:#C9DCE8}
+  /* ---------- top bar ---------- */
+  .topbar{background:var(--olive-deep);color:#E8E2CF;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:10px 16px;font-weight:600}
+  .topbar span{color:#E8A88C}
 
-  /* Header */
-  header{position:sticky;top:0;z-index:50;background:rgba(247,242,232,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
-  .header-in{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
-  .logo{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:700;letter-spacing:.06em;color:var(--olive-deep);line-height:1}
-  .logo small{display:block;font-family:'Outfit',sans-serif;font-size:.58rem;font-weight:500;letter-spacing:.42em;color:var(--muted);margin-top:2px}
-  nav.main{display:flex;gap:30px;font-size:.92rem;font-weight:400;letter-spacing:.04em}
-  nav.main a{padding:4px 0;border-bottom:1px solid transparent}
-  nav.main a:hover{border-bottom-color:var(--olive)}
-  .header-cta{font-size:.88rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--olive-deep);padding:10px 20px;transition:.2s}
-  .header-cta:hover{background:var(--olive-deep);color:var(--cream)}
-  .menu-btn{display:none;background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--olive-deep)}
-  @media(max-width:860px){
-    nav.main{display:none;position:absolute;top:100%;left:0;right:0;background:var(--cream);flex-direction:column;gap:0;border-bottom:1px solid var(--line);padding:8px 0}
+  /* ---------- header ---------- */
+  header{position:sticky;top:0;z-index:50;background:rgba(247,242,232,.97);backdrop-filter:blur(8px);border-bottom:2px solid var(--ink)}
+  .header-in{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:16px}
+  .logo{font-family:'Bricolage Grotesque',sans-serif;font-size:1.7rem;font-weight:800;letter-spacing:.02em;color:var(--olive-deep);line-height:.9}
+  .logo small{display:block;font-family:'Instrument Sans',sans-serif;font-size:.56rem;font-weight:700;letter-spacing:.4em;color:var(--rust);margin-top:3px}
+  nav.main{display:flex;gap:26px;font-size:.92rem;font-weight:600}
+  nav.main a{padding:4px 0}
+  nav.main a:hover{color:var(--rust)}
+  .header-cta{background:var(--olive-deep);color:var(--cream);font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:12px 22px;border-radius:100px;transition:.2s;white-space:nowrap}
+  .header-cta:hover{background:var(--rust)}
+  .menu-btn{display:none;background:none;border:none;font-size:1.7rem;cursor:pointer;color:var(--olive-deep)}
+  @media(max-width:900px){
+    nav.main{display:none;position:absolute;top:100%;left:0;right:0;background:var(--cream);flex-direction:column;gap:0;border-bottom:2px solid var(--ink);padding:8px 0}
     nav.main.open{display:flex}
-    nav.main a{padding:12px 24px;border-bottom:1px solid var(--line)}
+    nav.main a{padding:14px 24px;border-bottom:1px solid var(--line);font-size:1.05rem}
     nav.main a:last-child{border-bottom:none}
     .menu-btn{display:block}
     .header-cta{display:none}
   }
 
-  /* Hero */
-  .hero{display:grid;grid-template-columns:1.05fr 1fr;min-height:88vh}
-  .hero-copy{display:flex;flex-direction:column;justify-content:center;padding:64px 48px 64px max(24px,calc((100vw - 1160px)/2 + 24px))}
-  .hero-copy h1{font-size:clamp(3rem,6.5vw,5.2rem);font-weight:600;margin-bottom:20px}
-  .hero-copy h1 em{font-style:italic;font-weight:500;color:var(--olive)}
-  .hero-copy p.lede{font-size:1.15rem;color:var(--muted);max-width:480px;margin-bottom:12px}
-  .hero-copy p{color:var(--muted);max-width:480px;margin-bottom:28px}
-  .hero-img{position:relative;overflow:hidden;background:var(--olive-deep)}
-  .hero-img img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
-  .hero-img figcaption{position:absolute;bottom:18px;left:20px;color:rgba(255,255,255,.85);font-size:.82rem;font-style:italic;letter-spacing:.03em}
-  .btn-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-  .btn{display:inline-block;background:var(--olive-deep);color:var(--cream);padding:15px 32px;font-weight:500;font-size:.92rem;letter-spacing:.1em;text-transform:uppercase;transition:.2s;border:1px solid var(--olive-deep)}
-  .btn:hover{background:var(--olive);border-color:var(--olive)}
-  .btn-outline{background:transparent;color:var(--olive-deep)}
-  .btn-outline:hover{background:var(--olive-deep);color:var(--cream)}
-  .hero-note{margin-top:28px;font-size:.88rem;color:var(--muted);letter-spacing:.02em}
-  .hero-note strong{color:var(--olive-deep);font-weight:500}
-  @media(max-width:860px){
-    .hero{grid-template-columns:1fr;min-height:0}
-    .hero-copy{padding:48px 24px 40px}
-    .hero-img{order:-1;height:52vh;min-height:340px}
-  }
+  /* ---------- hero ---------- */
+  .hero{position:relative;background:var(--olive-deep);color:var(--cream);overflow:hidden}
+  .hero-img{position:absolute;inset:0}
+  .hero-img img{width:100%;height:100%;object-fit:cover;opacity:.55}
+  .hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(46,51,25,.95) 0%,rgba(46,51,25,.45) 55%,rgba(46,51,25,.35) 100%)}
+  .hero .wrap{position:relative;z-index:2;padding-top:96px;padding-bottom:72px}
+  .hero .eyebrow{font-weight:700;font-size:.85rem;letter-spacing:.24em;text-transform:uppercase;color:#E8A88C;margin-bottom:20px}
+  .hero h1{font-size:clamp(3.2rem,10vw,7.5rem);text-transform:uppercase;color:var(--cream)}
+  .hero h1 .outline{color:transparent;-webkit-text-stroke:2.5px var(--cream);display:block}
+  .hero h1 .rust{color:var(--rust)}
+  .hero .lede{font-size:clamp(1.05rem,2.4vw,1.3rem);max-width:620px;margin-top:24px;line-height:1.5;color:#EDE7D6}
+  .hero .lede strong{color:#fff}
+  .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+  .btn{display:inline-block;padding:16px 32px;border-radius:100px;font-weight:700;font-size:.95rem;transition:.15s;border:2px solid transparent}
+  .btn-rust{background:var(--rust);color:#fff}
+  .btn-rust:hover{background:var(--rust-deep)}
+  .btn-ghost{border-color:var(--cream);color:var(--cream);background:transparent}
+  .btn-ghost:hover{background:var(--cream);color:var(--olive-deep)}
+  .btn-dark{background:var(--olive-deep);color:var(--cream)}
+  .btn-dark:hover{background:var(--rust)}
+  .btn-cream{background:var(--cream);color:var(--olive-deep)}
+  .btn-cream:hover{background:#fff}
+  .hero-meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:40px;font-size:.92rem;font-weight:600;color:#C9C2A8}
+  .hero-meta span b{color:#fff;font-size:1.1rem}
 
-  /* Press line */
-  .press{padding:26px 0;border-bottom:1px solid var(--line);text-align:center}
-  .press p{font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
-  .press p strong{color:var(--olive-deep);font-weight:600;letter-spacing:.06em;text-transform:none;font-family:'Cormorant Garamond',serif;font-size:1.15rem}
+  /* ---------- marquee ---------- */
+  .marquee{background:var(--rust);color:#fff;overflow:hidden;padding:14px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+  .marquee-track{display:flex;gap:0;width:max-content;animation:scroll 28s linear infinite}
+  .marquee-track span{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;padding:0 18px}
+  .marquee-track span i{font-style:normal;color:#F7D9CE;padding-left:36px}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
-  /* Section scaffolding */
+  /* ---------- sections ---------- */
   section{padding:88px 0}
-  .sec-head{max-width:720px;margin-bottom:56px}
-  .sec-head h2{font-size:clamp(2.2rem,4.5vw,3.4rem);margin-bottom:14px}
-  .sec-head p{color:var(--muted);font-size:1.08rem}
+  .sec-head{max-width:780px;margin-bottom:56px}
+  .sec-head h2{font-size:clamp(2.4rem,5.5vw,4rem);margin-bottom:16px}
+  .sec-head h2 .serif-i{font-size:1.08em}
+  .sec-head p{color:var(--muted);font-size:1.1rem;line-height:1.6}
   .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
 
-  /* Shop: editorial product rows */
-  .product{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:64px 0;border-top:1px solid var(--line)}
+  /* ---------- press ---------- */
+  .press{padding:40px 0;border-bottom:2px solid var(--ink);text-align:center;background:var(--cream)}
+  .press p{font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:14px}
+  .press-names{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 36px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--olive-deep);line-height:1.1}
+  .press-names span:nth-child(even){font-family:'Instrument Serif',serif;font-style:italic;font-weight:400}
+
+  /* ---------- shop ---------- */
+  .product{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding:72px 0;border-top:2px solid var(--ink)}
   .product:first-of-type{border-top:none;padding-top:0}
   .product.flip .p-img{order:2}
-  .p-img{background:var(--paper);display:flex;align-items:center;justify-content:center;padding:40px 24px;min-height:420px}
-  .p-img img{max-height:380px;width:auto;object-fit:contain}
-  .p-img.sky{background:#E7EEF2}
-  .p-info h3{font-size:clamp(2rem,3.5vw,2.8rem);margin-bottom:6px}
-  .p-info .price{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--olive);margin-bottom:16px}
-  .p-info .price s{color:var(--muted);font-size:1.1rem;margin-right:10px}
-  .p-info .save{font-size:.85rem;color:var(--olive);letter-spacing:.06em;text-transform:uppercase;margin-bottom:16px;font-weight:500}
-  .p-info p{color:var(--muted);margin-bottom:14px;max-width:460px}
-  .flavor-notes{list-style:none;margin:20px 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
-  .flavor-notes li{font-size:.85rem;letter-spacing:.04em;border:1px solid var(--line);padding:6px 14px;color:var(--olive-deep);background:transparent}
-  .p-meta{font-size:.86rem;color:var(--muted);margin-top:16px}
+  .p-img{border-radius:20px;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:440px;padding:36px 24px}
+  .p-img img{max-height:400px;width:auto;object-fit:contain}
+  .p-img.sky{background:#DCE8EF}
+  .p-img.sage-bg{background:#DDE0C8}
+  .p-img.rust-bg{background:#F3DDD3}
+  .p-info .p-tag{font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);margin-bottom:10px}
+  .p-info h3{font-size:clamp(2.1rem,4vw,3rem);margin-bottom:8px}
+  .p-info .price{font-family:'Bricolage Grotesque',sans-serif;font-size:2rem;font-weight:800;color:var(--olive-deep);margin-bottom:16px}
+  .p-info .price s{color:var(--muted);font-size:1.3rem;margin-right:10px;font-weight:600}
+  .p-info .save{font-size:.88rem;color:var(--rust);letter-spacing:.06em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
+  .p-info p{color:var(--muted);margin-bottom:14px;max-width:480px;font-size:1.05rem}
+  .flavor-notes{list-style:none;margin:22px 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+  .flavor-notes li{font-size:.88rem;font-weight:600;letter-spacing:.03em;border:2px solid var(--olive-deep);border-radius:100px;padding:7px 16px;color:var(--olive-deep)}
+  .p-meta{font-size:.88rem;color:var(--muted);margin-top:18px;font-weight:600}
   @media(max-width:860px){
     .product,.product.flip .p-img{grid-template-columns:1fr;gap:28px;padding:48px 0}
     .product.flip .p-img{order:0}
@@ -105,136 +121,163 @@
     .p-img img{max-height:280px}
   }
 
-  /* Difference */
-  .difference{background:var(--olive-deep);color:#EDE7D6}
-  .difference h2{color:#F7F2E8}
-  .difference .sec-head p{color:#C9C2A8}
-  .diff-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:64px;align-items:center}
-  .diff-grid img{width:100%;height:520px;object-fit:cover}
-  .diff-grid h3{color:#F7F2E8;font-size:1.9rem;margin:28px 0 12px}
+  /* ---------- movement / stats ---------- */
+  .movement{background:var(--olive-deep);color:#EDE7D6}
+  .movement h2{color:#F7F2E8}
+  .movement .sec-head p{color:#C9C2A8}
+  .movement-flow{max-width:900px}
+  .movement-flow p.big{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.3;color:#F7F2E8;margin-bottom:28px}
+  .movement-flow p.big .num{color:#E8A88C}
+  .movement-flow p{color:#C9C2A8;font-size:1.08rem;margin-bottom:18px;max-width:720px}
+  .movement-flow p strong{color:#F7F2E8}
+
+  /* ---------- difference ---------- */
+  .diff-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center}
+  .diff-grid img{width:100%;height:540px;object-fit:cover;border-radius:20px}
+  .diff-grid h3{font-size:1.8rem;margin:28px 0 12px}
   .diff-grid h3:first-child{margin-top:0}
-  .diff-grid p{color:#C9C2A8;margin-bottom:14px}
-  .pull{font-family:'Cormorant Garamond',serif;font-size:1.7rem;line-height:1.35;font-style:italic;color:#F7F2E8;margin:32px 0;padding:24px 0;border-top:1px solid rgba(237,231,214,.25);border-bottom:1px solid rgba(237,231,214,.25)}
+  .diff-grid p{color:var(--muted);margin-bottom:14px;font-size:1.05rem}
+  .pull{font-family:'Instrument Serif',serif;font-size:clamp(1.5rem,3vw,2rem);line-height:1.35;font-style:italic;color:var(--olive-deep);margin:32px 0;padding:26px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
   @media(max-width:860px){
-    .diff-grid{grid-template-columns:1fr;gap:36px}
+    .diff-grid{grid-template-columns:1fr;gap:32px}
     .diff-grid img{height:340px}
   }
 
-  /* Recipes */
-  .recipe-list{border-top:1px solid var(--line)}
-  details.recipe{border-bottom:1px solid var(--line)}
-  details.recipe summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:20px;padding:26px 8px;transition:.15s}
-  details.recipe summary::-webkit-details-marker{display:none}
-  details.recipe summary:hover{background:var(--paper)}
-  .r-num{font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:var(--olive);min-width:36px}
-  .r-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:600;color:var(--olive-deep);flex:1}
-  .r-spirit{font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
-  .r-plus{font-size:1.6rem;color:var(--olive);font-weight:300;transition:.2s}
-  details[open ] .r-plus{transform:rotate(45deg)}
-  .r-body{padding:0 8px 32px 64px;max-width:760px}
-  .r-body p{color:var(--muted);margin-bottom:14px}
-  .r-body h4{font-family:'Outfit',sans-serif;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--olive-deep);margin:18px 0 8px}
-  .r-body ul{list-style:none;padding:0}
-  .r-body li{padding:4px 0;color:#4A4636;border-bottom:1px dotted var(--line)}
-  .r-body li:last-child{border-bottom:none}
-  .r-body ol{padding-left:20px;color:#4A4636}
-  .r-body ol li{border-bottom:none;padding:5px 0}
-  @media(max-width:600px){
-    .r-body{padding:0 8px 28px 8px}
-    .r-spirit{display:none}
+  /* ---------- photo band ---------- */
+  .photo-band{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}
+  .photo-band img{width:100%;height:340px;object-fit:cover}
+  @media(max-width:700px){.photo-band{grid-template-columns:1fr}.photo-band img{height:280px}}
+
+  /* ---------- recipes ---------- */
+  .recipes-band{background:var(--plum);color:#EDE7E8}
+  .recipes-band h2{color:#F7F2E8}
+  .recipes-band .sec-head p{color:#C9BFC9}
+  .recipe-menu{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+  .recipe-item{padding:28px 0;border-bottom:1px solid rgba(237,231,232,.22)}
+  .recipe-item .r-top{display:flex;align-items:baseline;gap:12px}
+  .recipe-item .r-num{font-family:'Bricolage Grotesque',sans-serif;font-size:1rem;font-weight:800;color:#E8A88C;min-width:30px}
+  .recipe-item h3{font-size:clamp(1.4rem,2.6vw,1.8rem);color:#F7F2E8;flex:1}
+  .recipe-item .r-spirit{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#C9BFC9;white-space:nowrap}
+  .recipe-item .r-desc{color:#C9BFC9;font-size:.98rem;margin:8px 0 0 42px;font-style:italic;font-family:'Instrument Serif',serif;font-size:1.1rem}
+  .recipe-item .r-ing{margin:14px 0 0 42px;font-size:.92rem;color:#EDE7E8;line-height:1.7}
+  .recipe-item .r-ing strong{color:#E8A88C;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:4px}
+  .recipe-item .r-method{margin:12px 0 0 42px;font-size:.92rem;color:#C9BFC9;line-height:1.7}
+  .recipe-item .r-method strong{color:#E8A88C;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:4px}
+  .recipe-photo{margin:48px 0 0;border-radius:20px;overflow:hidden}
+  .recipe-photo img{width:100%;height:420px;object-fit:cover;object-position:center 30%}
+  .recipe-photo figcaption{font-size:.88rem;color:#C9BFC9;font-style:italic;margin-top:10px;text-align:center}
+  @media(max-width:760px){
+    .recipe-menu{grid-template-columns:1fr}
+    .recipe-item .r-spirit{display:none}
+    .recipe-photo img{height:300px}
   }
 
-  /* Founder */
-  .founder-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:64px;align-items:start}
-  .founder-grid img{width:100%;height:640px;object-fit:cover;object-position:top}
-  .founder-grid figcaption{font-size:.85rem;color:var(--muted);font-style:italic;margin-top:10px}
-  .drop-cap::first-letter{font-family:'Cormorant Garamond',serif;font-size:3.6rem;font-weight:700;float:left;line-height:.85;padding-right:12px;padding-top:6px;color:var(--olive)}
-  .founder-grid p{margin-bottom:16px;color:#4A4636}
-  .founder-quote{font-family:'Cormorant Garamond',serif;font-size:1.6rem;line-height:1.4;font-style:italic;color:var(--olive-deep);margin:28px 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  /* ---------- founder ---------- */
+  .founder-band{background:var(--paper)}
+  .founder-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:start}
+  .founder-photos{display:flex;flex-direction:column;gap:16px}
+  .founder-photos img{width:100%;border-radius:20px;object-fit:cover}
+  .founder-photos img:first-child{height:480px;object-position:top}
+  .founder-photos img:last-child{height:320px}
+  .founder-photos figcaption{font-size:.85rem;color:var(--muted);font-style:italic;margin-top:8px}
+  .founder-copy h2{font-size:clamp(2.2rem,4.5vw,3.2rem);margin-bottom:22px}
+  .founder-copy h2 .serif-i{font-size:1.05em}
+  .founder-copy p{margin-bottom:16px;color:#4A4636;font-size:1.05rem}
+  .drop-cap::first-letter{font-family:'Bricolage Grotesque',sans-serif;font-size:3.8rem;font-weight:800;float:left;line-height:.82;padding-right:12px;padding-top:6px;color:var(--rust)}
+  .founder-quote{font-family:'Instrument Serif',serif;font-size:clamp(1.4rem,2.8vw,1.8rem);line-height:1.4;font-style:italic;color:var(--olive-deep);margin:28px 0;padding:24px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
   @media(max-width:860px){
     .founder-grid{grid-template-columns:1fr;gap:32px}
-    .founder-grid img{height:420px}
+    .founder-photos img:first-child{height:380px}
+    .founder-photos img:last-child{height:260px}
   }
 
-  /* Events */
-  .events-band{background:var(--paper)}
-  .event-list{border-top:1px solid var(--line)}
-  .event{display:grid;grid-template-columns:110px 1fr auto;gap:24px;align-items:baseline;padding:24px 8px;border-bottom:1px solid var(--line)}
-  .event .e-date{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:var(--olive);white-space:nowrap}
+  /* ---------- events ---------- */
+  .events-band{background:var(--cream)}
+  .event-list{border-top:2px solid var(--ink)}
+  .event{display:grid;grid-template-columns:120px 1fr auto;gap:24px;align-items:baseline;padding:28px 8px;border-bottom:1px solid var(--line)}
+  .event .e-date{font-family:'Bricolage Grotesque',sans-serif;font-size:1.3rem;font-weight:800;color:var(--rust);white-space:nowrap}
   .event h3{font-size:1.5rem;margin-bottom:2px}
-  .event p{color:var(--muted);font-size:.95rem}
-  .event .e-place{font-size:.88rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap;text-align:right}
+  .event p{color:var(--muted);font-size:.98rem}
+  .event .e-place{font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap;text-align:right}
   @media(max-width:700px){
     .event{grid-template-columns:1fr;gap:4px}
     .event .e-place{text-align:left}
   }
 
-  /* Find us */
-  .cities{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;border-top:1px solid var(--line);padding-top:40px}
-  .city h3{font-size:1.6rem;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}
-  .city p{color:var(--muted);font-size:.95rem;margin-bottom:6px}
-  .city p strong{color:var(--ink);font-weight:500}
+  /* ---------- find us ---------- */
+  .find-band{background:var(--olive-deep);color:#EDE7D6}
+  .find-band h2{color:#F7F2E8}
+  .find-band .sec-head p{color:#C9C2A8}
+  .cities{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;border-top:2px solid rgba(237,231,214,.3);padding-top:40px}
+  .city h3{font-size:1.7rem;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(237,231,214,.3);color:#F7F2E8}
+  .city p{color:#C9C2A8;font-size:.98rem;margin-bottom:10px;line-height:1.6}
+  .city p strong{color:#F7F2E8;font-weight:700}
+  .city a{color:#E8A88C;font-weight:700}
   @media(max-width:860px){.cities{grid-template-columns:1fr 1fr}}
   @media(max-width:520px){.cities{grid-template-columns:1fr}}
 
-  /* Wholesale */
-  .wholesale-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:start}
-  .wholesale-grid h3{font-size:1.7rem;margin:24px 0 10px}
+  /* ---------- wholesale ---------- */
+  .wholesale-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
+  .wholesale-grid h3{font-size:1.7rem;margin:28px 0 10px}
   .wholesale-grid h3:first-child{margin-top:0}
-  .wholesale-grid p{color:var(--muted);margin-bottom:12px}
-  .ws-form{background:var(--paper);padding:32px}
-  .ws-form h3{font-size:1.5rem;margin-bottom:6px}
-  .ws-form p{font-size:.92rem;margin-bottom:20px}
-  .ws-form label{display:block;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--olive-deep);margin:14px 0 6px;font-weight:500}
-  .ws-form input,.ws-form select,.ws-form textarea{width:100%;padding:12px 14px;border:1px solid var(--line);background:#fff;font-family:'Outfit',sans-serif;font-size:.95rem;color:var(--ink)}
+  .wholesale-grid p{color:var(--muted);margin-bottom:12px;font-size:1.05rem}
+  .wholesale-grid p strong{color:var(--ink)}
+  .ws-form{background:var(--olive-deep);color:#EDE7D6;padding:36px;border-radius:20px}
+  .ws-form h3{font-size:1.6rem;margin-bottom:6px;color:#F7F2E8}
+  .ws-form p{font-size:.95rem;margin-bottom:20px;color:#C9C2A8}
+  .ws-form label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#E8A88C;margin:16px 0 6px}
+  .ws-form input,.ws-form select,.ws-form textarea{width:100%;padding:13px 15px;border:1px solid rgba(237,231,214,.3);background:rgba(255,255,255,.08);font-family:'Instrument Sans',sans-serif;font-size:.95rem;color:#F7F2E8;border-radius:8px}
+  .ws-form input::placeholder,.ws-form textarea::placeholder{color:#9A9378}
+  .ws-form select option{color:var(--ink)}
   .ws-form textarea{min-height:90px;resize:vertical}
-  .ws-form .btn{margin-top:20px;width:100%;text-align:center;cursor:pointer}
-  .form-note{display:none;margin-top:14px;font-size:.92rem;color:var(--olive);font-weight:500}
+  .ws-form .btn{margin-top:22px;width:100%;text-align:center;cursor:pointer}
+  .form-note{display:none;margin-top:14px;font-size:.92rem;color:#E8A88C;font-weight:700}
   @media(max-width:860px){.wholesale-grid{grid-template-columns:1fr;gap:36px}}
 
-  /* Reviews */
-  .reviews-band{background:var(--olive-deep);color:#EDE7D6}
-  .reviews-band h2{color:#F7F2E8}
-  .review-rows{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid rgba(237,231,214,.25)}
-  .review{padding:36px 0;border-bottom:1px solid rgba(237,231,214,.25);display:grid;grid-template-columns:1fr 220px;gap:32px;align-items:baseline}
-  .review blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.35;font-style:italic;color:#F7F2E8}
-  .review cite{font-style:normal;font-family:'Outfit',sans-serif;font-size:.88rem;color:#C9C2A8;letter-spacing:.04em}
-  @media(max-width:700px){.review{grid-template-columns:1fr;gap:8px}}
+  /* ---------- reviews ---------- */
+  .reviews-band{background:var(--paper)}
+  .review-rows{border-top:2px solid var(--ink)}
+  .review{padding:40px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 240px;gap:32px;align-items:baseline}
+  .review blockquote{font-family:'Instrument Serif',serif;font-size:clamp(1.5rem,2.8vw,2.1rem);line-height:1.35;font-style:italic;color:var(--olive-deep)}
+  .review cite{font-style:normal;font-family:'Instrument Sans',sans-serif;font-size:.9rem;color:var(--muted);font-weight:600;letter-spacing:.02em}
+  @media(max-width:700px){.review{grid-template-columns:1fr;gap:10px}}
 
-  /* Email signup */
-  .signup{text-align:center;max-width:640px;margin:0 auto}
-  .signup h2{font-size:clamp(2rem,4vw,2.8rem);margin-bottom:12px}
-  .signup p{color:var(--muted);margin-bottom:28px}
-  .signup-form{display:flex;gap:0;max-width:480px;margin:0 auto;border:1px solid var(--olive-deep)}
-  .signup-form input{flex:1;padding:15px 18px;border:none;background:#fff;font-family:'Outfit',sans-serif;font-size:.95rem;min-width:0}
-  .signup-form button{background:var(--olive-deep);color:var(--cream);border:none;padding:15px 26px;font-family:'Outfit',sans-serif;font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
-  .signup-form button:hover{background:var(--olive)}
-  .signup-note{font-size:.82rem;color:var(--muted);margin-top:14px}
+  /* ---------- email signup ---------- */
+  .signup-band{background:var(--rust);color:#fff;text-align:center}
+  .signup-band h2{color:#fff;font-size:clamp(2.4rem,5vw,3.6rem);margin-bottom:14px}
+  .signup-band p{color:#FBE9E2;font-size:1.1rem;max-width:600px;margin:0 auto 30px}
+  .signup-form{display:flex;gap:0;max-width:520px;margin:0 auto;border:2px solid #fff;border-radius:100px;overflow:hidden}
+  .signup-form input{flex:1;padding:17px 22px;border:none;background:transparent;font-family:'Instrument Sans',sans-serif;font-size:1rem;min-width:0;color:#fff}
+  .signup-form input::placeholder{color:#F3C9B8}
+  .signup-form button{background:#fff;color:var(--rust-deep);border:none;padding:17px 30px;font-family:'Instrument Sans',sans-serif;font-size:.9rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+  .signup-form button:hover{background:var(--olive-deep);color:#fff}
+  .signup-note{font-size:.85rem;color:#F3C9B8;margin-top:16px}
 
-  /* Footer */
-  footer{background:var(--olive-deep);color:#C9C2A8;padding:64px 0 32px;font-size:.9rem}
-  .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
-  footer h4{color:#F7F2E8;font-family:'Outfit',sans-serif;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px;font-weight:500}
-  footer a{display:block;padding:3px 0}
-  footer a:hover{color:#F7F2E8}
-  .foot-logo{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:700;color:#F7F2E8;letter-spacing:.06em;line-height:1}
-  .foot-logo small{display:block;font-family:'Outfit',sans-serif;font-size:.6rem;font-weight:500;letter-spacing:.42em;color:#C9C2A8;margin-top:4px}
-  .foot-note{border-top:1px solid rgba(237,231,214,.2);padding-top:24px;font-size:.8rem;color:#9A9378;line-height:1.6}
+  /* ---------- footer ---------- */
+  footer{background:var(--olive-deep);color:#C9C2A8;padding:72px 0 32px;font-size:.92rem}
+  .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:44px}
+  footer h4{color:#F7F2E8;font-family:'Instrument Sans',sans-serif;font-size:.82rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+  footer a{display:block;padding:4px 0}
+  footer a:hover{color:#E8A88C}
+  .foot-logo{font-family:'Bricolage Grotesque',sans-serif;font-size:2.4rem;font-weight:800;color:#F7F2E8;letter-spacing:.02em;line-height:.9}
+  .foot-logo small{display:block;font-family:'Instrument Sans',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:.42em;color:#E8A88C;margin-top:5px}
+  .foot-note{border-top:1px solid rgba(237,231,214,.2);padding-top:24px;font-size:.8rem;color:#9A9378;line-height:1.7}
   @media(max-width:700px){.foot-grid{grid-template-columns:1fr 1fr}}
   @media(max-width:480px){.foot-grid{grid-template-columns:1fr}}
 
   @media(max-width:600px){
     section{padding:64px 0}
     .sec-head{margin-bottom:40px}
-    .signup-form{flex-direction:column;border:none;gap:12px}
-    .signup-form input{border:1px solid var(--olive-deep)}
-    .signup-form button{width:100%}
+    .hero .wrap{padding-top:72px;padding-bottom:56px}
+    .signup-form{flex-direction:column;border:none;gap:12px;border-radius:0;overflow:visible}
+    .signup-form input{border:2px solid #fff;border-radius:100px}
+    .signup-form button{width:100%;border-radius:100px}
   }
 </style>
 </head>
 <body>
 
-<div class="announce">Zero proof <span>&middot;</span> Prebiotics in every pour <span>&middot;</span> Born in Detroit, pouring nationwide</div>
+<div class="topbar">Zero proof <span>&middot;</span> Prebiotics in every pour <span>&middot;</span> Born in Detroit, pouring nationwide</div>
 
 <header>
   <div class="wrap header-in">
@@ -242,7 +285,7 @@
     <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('nav.main').classList.toggle('open')">&#9776;</button>
     <nav class="main">
       <a href="#shop">Shop</a>
-      <a href="#difference">Why Fine Line</a>
+      <a href="#movement">The Movement</a>
       <a href="#recipes">Recipes</a>
       <a href="#story">Our Story</a>
       <a href="#events">Events</a>
@@ -255,26 +298,40 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-copy">
-    <h1>Social<br><em>without</em><br>sacrifice.</h1>
-    <p class="lede">Fine Line is a zero-proof spirit made with prebiotics, built for people who love the ritual of a good drink and love how they feel the next morning just as much.</p>
-    <p>Two spirits. Vodka and tequila, reimagined with real flavor and gut-friendly prebiotics. Zero alcohol, zero calories, vegan, gluten-free. Pour it, mix it, raise it. Nobody at the table will know the difference. Your gut will.</p>
-    <div class="btn-row">
-      <a class="btn" href="#shop">Shop the Collection</a>
-      <a class="btn btn-outline" href="#story">Meet Beverly</a>
+  <div class="hero-img"><img src="images/dinner-party.jpg" alt="A bottle of Fine Line vodka on a candlelit dinner table with martini glasses"></div>
+  <div class="wrap">
+    <p class="eyebrow">Detroit-born &middot; Zero proof &middot; Prebiotics in every pour</p>
+    <h1>Social<br><span class="outline">without</span><br><span class="rust">sacrifice.</span></h1>
+    <p class="lede">Fine Line is a <strong>non-alcoholic spirit</strong> made with prebiotics, built for people who love the ritual of a good drink and love how they feel the next morning just as much.</p>
+    <p class="lede" style="font-size:1.05rem">Two spirits. <strong>Zero proof vodka</strong> and <strong>zero proof tequila</strong>, reimagined with real flavor and gut-friendly prebiotics. Zero alcohol, zero calories, vegan, gluten-free. Pour it, mix it, raise it. Nobody at the table will know the difference. Your gut will.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-rust" href="#shop">Shop the Collection</a>
+      <a class="btn btn-ghost" href="#recipes">Browse Recipes</a>
     </div>
-    <p class="hero-note"><strong>Free of alcohol, full of flavor.</strong> Every bottle is 750ml, infused with prebiotics, and made to mix like the real thing.</p>
+    <div class="hero-meta">
+      <span><b>0%</b> alcohol</span>
+      <span><b>0</b> calories</span>
+      <span><b>4</b> cities pouring</span>
+      <span><b>10</b> recipes inside</span>
+    </div>
   </div>
-  <figure class="hero-img">
-    <img src="images/velvet-bottle.jpg" alt="A bottle of Fine Line Zero Proof Vodka resting on deep olive velvet fabric">
-    <figcaption>Zero Proof Vodka, 750ml. Mango, peach, ginger, sea salt.</figcaption>
-  </figure>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Zero Proof <i>&#10022;</i></span><span>Prebiotics <i>&#10022;</i></span><span>Born in Detroit <i>&#10022;</i></span><span>0 Calories <i>&#10022;</i></span><span>Vegan <i>&#10022;</i></span><span>Gluten-Free <i>&#10022;</i></span><span>Social Without Sacrifice <i>&#10022;</i></span>
+    <span>Zero Proof <i>&#10022;</i></span><span>Prebiotics <i>&#10022;</i></span><span>Born in Detroit <i>&#10022;</i></span><span>0 Calories <i>&#10022;</i></span><span>Vegan <i>&#10022;</i></span><span>Gluten-Free <i>&#10022;</i></span><span>Social Without Sacrifice <i>&#10022;</i></span>
+  </div>
 </div>
 
 <!-- PRESS -->
 <div class="press">
   <div class="wrap">
-    <p>As featured in &nbsp;<strong>BuzzFeed</strong> &nbsp;&middot;&nbsp; <strong>Fox 2 Detroit</strong> &nbsp;&middot;&nbsp; <strong>Good Day DC</strong> &nbsp;&middot;&nbsp; <strong>Create &amp; Cultivate</strong> &nbsp;&middot;&nbsp; <strong>Hour Detroit</strong></p>
+    <p>As featured in</p>
+    <div class="press-names">
+      <span>BuzzFeed</span><span>Fox 2 Detroit</span><span>Good Day DC</span><span>Create &amp; Cultivate</span><span>Hour Detroit</span>
+    </div>
   </div>
 </div>
 
@@ -282,73 +339,92 @@
 <section id="shop">
   <div class="wrap">
     <div class="sec-head">
-      <h2>The spirits.</h2>
-      <p>Two bottles, one for every kind of night. Each is a full 750ml, infused with prebiotics, and crafted to hold its own in any cocktail you already love. Ordering takes you to our Shopify store, where checkout, shipping, and taxes are handled securely.</p>
+      <h2>The collection. <span class="serif-i">Two bottles, every kind of night.</span></h2>
+      <p>Each bottle is a full 750ml of non-alcoholic spirit, infused with prebiotics and crafted to hold its own in any cocktail you already love. Ordering takes you to our Shopify store, where checkout, shipping, and taxes are handled securely.</p>
     </div>
 
     <!-- Vodka -->
     <div class="product">
       <div class="p-img sky">
-        <img src="images/vodka-main.png" alt="Fine Line Zero Proof Vodka bottle">
+        <img src="images/vodka-main.png" alt="Fine Line Zero Proof Vodka bottle, 750ml">
       </div>
       <div class="p-info">
-        <h3>Zero Proof Vodka</h3>
+        <div class="p-tag">Zero Proof Vodka</div>
+        <h3>Tropical. Smooth. Zero proof.</h3>
         <div class="price">$37.99</div>
         <p>A tropical escape in a glass. Ripe mango and juicy peach, balanced with a hint of sea salt and a zesty kick of ginger, mellowed by the crisp coolness of water. Smooth with a tangy twist.</p>
         <p>Pour it in a martini, a spritz, or a Bloody Mary and it behaves exactly the way vodka should. The only thing missing is the alcohol.</p>
         <ul class="flavor-notes">
           <li>Mango</li><li>Peach</li><li>Ginger</li><li>Sea salt</li>
         </ul>
-        <a class="btn" href="https://drinkfineline.com/products/zero-proof-vodka" target="_blank" rel="noopener">Shop Vodka, $37.99</a>
+        <a class="btn btn-dark" href="https://drinkfineline.com/products/zero-proof-vodka" target="_blank" rel="noopener">Shop Vodka, $37.99</a>
         <p class="p-meta">750ml &middot; 0% alcohol &middot; 0 calories &middot; Vegan &middot; Gluten-free &middot; Contains prebiotics</p>
       </div>
     </div>
 
     <!-- Tequila -->
     <div class="product flip">
-      <div class="p-img">
-        <img src="images/tequila-main.png" alt="Fine Line Zero Proof Tequila bottle">
+      <div class="p-img sage-bg">
+        <img src="images/tequila-main.png" alt="Fine Line Zero Proof Tequila bottle, 750ml">
       </div>
       <div class="p-info">
-        <h3>Zero Proof Tequila</h3>
+        <div class="p-tag">Zero Proof Tequila</div>
+        <h3>Bold. Bright. Margarita-ready.</h3>
         <div class="price">$37.99</div>
         <p>All the margarita-night energy, none of the alcohol. Zesty ginger and a touch of sea salt over a smooth, earthy tequila blanco base, sweetened naturally with agave and brightened by orange and warm vanilla.</p>
         <p>Built for palomas, margaritas, and slow sipping on a warm night. The flavor is bold. The morning after is clear.</p>
         <ul class="flavor-notes">
           <li>Ginger</li><li>Agave</li><li>Orange</li><li>Vanilla</li><li>Sea salt</li>
         </ul>
-        <a class="btn" href="https://drinkfineline.com/products/zero-proof-tequila" target="_blank" rel="noopener">Shop Tequila, $37.99</a>
+        <a class="btn btn-dark" href="https://drinkfineline.com/products/zero-proof-tequila" target="_blank" rel="noopener">Shop Tequila, $37.99</a>
         <p class="p-meta">750ml &middot; 0% alcohol &middot; 0 calories &middot; Vegan &middot; Gluten-free &middot; Contains prebiotics</p>
       </div>
     </div>
 
     <!-- Bundle -->
     <div class="product">
-      <div class="p-img">
+      <div class="p-img rust-bg">
         <img src="images/bundle-main.png" alt="Fine Line Zero Proof Bundle, vodka and tequila bottles together">
       </div>
       <div class="p-info">
-        <h3>The Zero Proof Bundle</h3>
+        <div class="p-tag">The Bundle &middot; Best Value</div>
+        <h3>Both bottles. One very good decision.</h3>
         <div class="price"><s>$75.98</s> $70.00</div>
         <div class="save">You save $5.98</div>
         <p>Both bottles, one order. The tropical vodka and the bold tequila, side by side on your bar cart. This is the set to start with if you are stocking a home bar, gifting a friend, or hosting a night where everyone should have something good in their glass.</p>
         <p>Two full 750ml bottles. Two completely different moods. One very good decision.</p>
-        <a class="btn" href="https://drinkfineline.com/products/zero-proof-bundle" target="_blank" rel="noopener">Shop the Bundle, $70.00</a>
+        <a class="btn btn-dark" href="https://drinkfineline.com/products/zero-proof-bundle" target="_blank" rel="noopener">Shop the Bundle, $70.00</a>
         <p class="p-meta">2 x 750ml &middot; 0% alcohol &middot; 0 calories &middot; Vegan &middot; Gluten-free &middot; Contains prebiotics</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- DIFFERENCE -->
-<section class="difference" id="difference">
+<!-- MOVEMENT / STATS -->
+<section class="movement" id="movement">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Most alcohol-free spirits stop at flavor. We kept going.</h2>
+      <h2>The sober-curious shift is real. <span class="serif-i">And it is just getting started.</span></h2>
+    </div>
+    <div class="movement-flow">
+      <p class="big">Non-alcoholic drinks passed <span class="num">$1 billion</span> in US retail sales in 2026, up nearly 15% in a single year. Non-alcoholic spirits are the fastest-growing part of that, up <span class="num">41%</span> in value.</p>
+      <p class="big">Meanwhile, total alcohol sales <span class="num">fell</span> almost 3%. The shift is not a trend. It is a changing of the guard.</p>
+      <p>Here is what surprised the industry most: <strong>94% of non-alcoholic buyers also buy full-strength alcohol.</strong> This is not about quitting. It is about having a better option in your glass on the nights you want one. The sober-curious movement is people choosing, not abstaining. Choosing flavor. Choosing how they feel tomorrow. Choosing a drink that works with their body instead of against it.</p>
+      <p>That is exactly the drink Fine Line was built to be. Zero proof, full flavor, and the only spirit in the category with prebiotics built in. The movement found its bottle.</p>
+      <p style="font-size:.85rem;color:#9A9378;margin-top:28px">Sources: NIQ off-premise data, year ending June 2026, via The Spirits Business and Beverage Industry.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DIFFERENCE -->
+<section id="difference">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Most alcohol-free spirits stop at flavor. <span class="serif-i">We kept going.</span></h2>
       <p>Fine Line is the only spirit we know of with prebiotics built in. That was never a marketing idea. It was the whole reason the brand exists.</p>
     </div>
     <div class="diff-grid">
-      <img src="images/dinner-party.jpg" alt="A bottle of Fine Line vodka on a candlelit dinner table with martini glasses">
+      <img src="images/poolside-v2.jpg" alt="A bottle of Fine Line Zero Proof Vodka beside a cocktail garnished with lime and raspberries">
       <div>
         <h3>What a prebiotic actually does</h3>
         <p>Prebiotics are plant-based fiber that feed the good bacteria in your gut. They support digestion, and a healthy gut supports everything else, from energy to mood to how you feel the morning after a night out.</p>
@@ -362,164 +438,124 @@
   </div>
 </section>
 
+<!-- PHOTO BAND -->
+<div class="photo-band">
+  <img src="images/velvet-bottle.jpg" alt="Fine Line Zero Proof Vodka resting on deep olive velvet fabric">
+  <img src="images/linden-la-v2.jpg" alt="Raising a Fine Line cocktail at the Linden LA launch pop-up">
+  <img src="images/tequila-soft.jpg" alt="Close-up of the Fine Line Zero Proof Tequila bottle label">
+</div>
+
 <!-- RECIPES -->
-<section id="recipes">
+<section class="recipes-band" id="recipes">
   <div class="wrap">
     <div class="sec-head">
-      <h2>From our bar to yours.</h2>
-      <p>These are the drinks we pour at our own happy hours and tastings, the ones people ask for by name. Every recipe starts with 2 ounces of Fine Line and ends with someone asking for the recipe. Tap any drink for the full pour.</p>
+      <h2>The Fine Line cocktail menu. <span class="serif-i">Ten pours, zero proof.</span></h2>
+      <p>These are the drinks we pour at our own happy hours and tastings, the ones people ask for by name. Every recipe starts with Fine Line and ends with someone asking how you made it. Looking for a zero proof margarita recipe, a zero proof espresso martini, or a mocktail that actually tastes like a cocktail? You found it.</p>
     </div>
 
-    <div class="recipe-list">
-      <details class="recipe">
-        <summary><span class="r-num">01</span><span class="r-name">Fine Line Lemon Spritz</span><span class="r-spirit">Zero Proof Vodka</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>Consider this your prescription for a better afternoon. Light, bright, and gone faster than you expect.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>2 oz Fine Line Zero Proof Vodka</li>
-            <li>Sparkling water, to top</li>
-            <li>A generous squeeze of fresh lemon</li>
-            <li>Lemon twist and a few raspberries, to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Pour the vodka into a chilled martini glass.</li>
-            <li>Top with sparkling water and squeeze in the lemon.</li>
-            <li>Garnish with a lemon twist and raspberries. Sip slow.</li>
-          </ol>
-        </div>
-      </details>
+    <div class="recipe-menu">
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">01</span><h3>Fine Line Lemon Spritz</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">Consider this your prescription for a better afternoon. Light, bright, and gone faster than you expect.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Vodka &middot; Sparkling water, to top &middot; A generous squeeze of fresh lemon &middot; Lemon twist and raspberries, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Pour the vodka into a chilled martini glass. Top with sparkling water and squeeze in the lemon. Garnish with a lemon twist and raspberries. Sip slow.</p>
+      </div>
 
-      <details class="recipe">
-        <summary><span class="r-num">02</span><span class="r-name">Fine Line Paloma</span><span class="r-spirit">Zero Proof Tequila</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>The one that converts skeptics. Salty, citrusy, and dangerously easy to drink.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>2 oz Fine Line Zero Proof Tequila</li>
-            <li>3 oz fresh pink grapefruit juice</li>
-            <li>1/2 oz fresh lime juice</li>
-            <li>1/4 oz agave syrup</li>
-            <li>Sparkling water, to top</li>
-            <li>Tajin and flaky sea salt, for the rim</li>
-            <li>Grapefruit slice and rosemary, to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Rim a highball glass with a lime wedge, then dip in Tajin and flaky sea salt. Fill with ice.</li>
-            <li>Add the tequila, grapefruit juice, lime juice, and agave. Stir gently.</li>
-            <li>Top with sparkling water and garnish with grapefruit and rosemary.</li>
-          </ol>
-        </div>
-      </details>
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">02</span><h3>Fine Line Paloma</h3><span class="r-spirit">Tequila</span></div>
+        <p class="r-desc">The one that converts skeptics. Salty, citrusy, and dangerously easy to drink.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Tequila &middot; 3 oz fresh pink grapefruit juice &middot; 1/2 oz fresh lime juice &middot; 1/4 oz agave syrup &middot; Sparkling water, to top &middot; Tajin and flaky sea salt, for the rim &middot; Grapefruit slice and rosemary, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Rim a highball glass with a lime wedge, then dip in Tajin and flaky sea salt. Fill with ice. Add the tequila, grapefruit juice, lime juice, and agave. Stir gently. Top with sparkling water and garnish.</p>
+      </div>
 
-      <details class="recipe">
-        <summary><span class="r-num">03</span><span class="r-name">Matcha Margarita</span><span class="r-spirit">Zero Proof Tequila</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>Your gut&rsquo;s favorite margarita. Earthy matcha meets bright lime, with prebiotics in every sip.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>2 oz Fine Line Zero Proof Tequila</li>
-            <li>1 oz fresh lime juice</li>
-            <li>1/2 oz agave syrup</li>
-            <li>1 tsp ceremonial matcha</li>
-            <li>Pinch of sea salt</li>
-            <li>Ice, and a lime wheel to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Rim your glass with salt.</li>
-            <li>Whisk the matcha with a splash of warm water until smooth.</li>
-            <li>Add everything to a shaker, shake until cold, strain and garnish with a lime wheel.</li>
-          </ol>
-        </div>
-      </details>
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">03</span><h3>The Classic Margarita</h3><span class="r-spirit">Tequila</span></div>
+        <p class="r-desc">The zero proof margarita recipe everyone asks for. No shortcuts, no compromise, all the ritual.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Tequila &middot; 1 oz fresh lime juice &middot; 1/2 oz agave syrup &middot; Pinch of flaky sea salt &middot; Lime wheel and salt, for the rim</p>
+        <p class="r-method"><strong>Method</strong>Rim a rocks glass with lime and salt. Fill with ice. Add the tequila, lime juice, and agave to a shaker with ice. Shake hard for 15 seconds. Strain over fresh ice and garnish with a lime wheel.</p>
+      </div>
 
-      <details class="recipe">
-        <summary><span class="r-num">04</span><span class="r-name">Cucumber Mint 75</span><span class="r-spirit">Zero Proof Vodka</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>Cool, green, and quietly elegant. The French 75, reimagined for a garden afternoon.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>1 1/2 oz Fine Line Zero Proof Vodka</li>
-            <li>4 cucumber slices and 6 fresh mint leaves</li>
-            <li>1/2 oz simple syrup</li>
-            <li>3/4 oz fresh lemon juice</li>
-            <li>Sparkling water or non-alcoholic sparkling wine, to top</li>
-            <li>Cucumber ribbon and mint sprig, to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Muddle the cucumber and mint with the simple syrup in a shaker.</li>
-            <li>Add the vodka and lemon juice with ice. Shake well.</li>
-            <li>Double-strain into a chilled champagne flute, top with bubbles, and garnish.</li>
-          </ol>
-        </div>
-      </details>
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">04</span><h3>Matcha Margarita</h3><span class="r-spirit">Tequila</span></div>
+        <p class="r-desc">Your gut&rsquo;s favorite margarita. Earthy matcha meets bright lime, with prebiotics in every sip.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Tequila &middot; 1 oz fresh lime juice &middot; 1/2 oz agave syrup &middot; 1 tsp ceremonial matcha &middot; Pinch of sea salt &middot; Ice, and a lime wheel to garnish</p>
+        <p class="r-method"><strong>Method</strong>Rim your glass with salt. Whisk the matcha with a splash of warm water until smooth. Add everything to a shaker, shake until cold, strain and garnish with a lime wheel.</p>
+      </div>
 
-      <details class="recipe">
-        <summary><span class="r-num">05</span><span class="r-name">Honey, You Fine</span><span class="r-spirit">Zero Proof Tequila</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>Rich aunt by the pool energy, and it doesn&rsquo;t need a drop of alcohol to do it.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>2 oz Fine Line Zero Proof Tequila</li>
-            <li>3 honeydew melon balls</li>
-            <li>1 oz fresh lime juice</li>
-            <li>1/2 oz honey syrup</li>
-            <li>Splash of sparkling water</li>
-            <li>Honeydew skewer, to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Muddle the honeydew in a shaker.</li>
-            <li>Add the tequila, lime juice, and honey syrup with ice. Shake.</li>
-            <li>Strain into a coupe glass, top with sparkling water, and garnish.</li>
-          </ol>
-        </div>
-      </details>
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">05</span><h3>Dirty Martini</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">We did not set out to make an alcohol-free martini. We set out to make a great martini. This is it.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 1/2 oz Fine Line Zero Proof Vodka &middot; 1/2 oz olive brine &middot; Splash of dry vermouth &middot; Castelvetrano olives, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Stir the vodka, olive brine, and vermouth with ice for 30 seconds. Strain into a chilled coupe or martini glass. Garnish with olives on a pick. Filthy, in the best way.</p>
+      </div>
 
-      <details class="recipe">
-        <summary><span class="r-num">06</span><span class="r-name">Espresso Martini</span><span class="r-spirit">Zero Proof Vodka</span><span class="r-plus">+</span></summary>
-        <div class="r-body">
-          <p>The espresso martini had a glow up. All the energy, none of the alcohol.</p>
-          <h4>Ingredients</h4>
-          <ul>
-            <li>2 oz Fine Line Zero Proof Vodka</li>
-            <li>1 shot fresh espresso</li>
-            <li>Coffee beans, to garnish</li>
-          </ul>
-          <h4>Method</h4>
-          <ol>
-            <li>Add the vodka and hot espresso to a shaker with ice.</li>
-            <li>Shake hard until the shaker frosts over.</li>
-            <li>Strain into a chilled martini glass and garnish with coffee beans.</li>
-          </ol>
-        </div>
-      </details>
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">06</span><h3>Cucumber Mint 75</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">Cool, green, and quietly elegant. The French 75, reimagined for a garden afternoon.</p>
+        <p class="r-ing"><strong>Ingredients</strong>1 1/2 oz Fine Line Zero Proof Vodka &middot; 4 cucumber slices and 6 fresh mint leaves &middot; 1/2 oz simple syrup &middot; 3/4 oz fresh lemon juice &middot; Sparkling water or non-alcoholic sparkling wine, to top &middot; Cucumber ribbon and mint sprig, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Muddle the cucumber and mint with the simple syrup in a shaker. Add the vodka and lemon juice with ice. Shake well. Double-strain into a chilled champagne flute, top with bubbles, and garnish.</p>
+      </div>
+
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">07</span><h3>Honey, You Fine</h3><span class="r-spirit">Tequila</span></div>
+        <p class="r-desc">Rich aunt by the pool energy, and it doesn&rsquo;t need a drop of alcohol to do it.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Tequila &middot; 3 honeydew melon balls &middot; 1 oz fresh lime juice &middot; 1/2 oz honey syrup &middot; Splash of sparkling water &middot; Honeydew skewer, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Muddle the honeydew in a shaker. Add the tequila, lime juice, and honey syrup with ice. Shake. Strain into a coupe glass, top with sparkling water, and garnish.</p>
+      </div>
+
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">08</span><h3>Espresso Martini</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">The espresso martini had a glow up. All the energy, none of the alcohol.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Vodka &middot; 1 shot fresh espresso &middot; Coffee beans, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Add the vodka and hot espresso to a shaker with ice. Shake hard until the shaker frosts over. Strain into a chilled martini glass and garnish with coffee beans.</p>
+      </div>
+
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">09</span><h3>Garden Party Bloody Mary</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">Brunch just got better. Spicy, savory, and stacked with garden garnishes.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Vodka &middot; 4 oz tomato juice &middot; 1/2 oz fresh lemon juice &middot; 2 dashes Worcestershire sauce &middot; 2 dashes hot sauce &middot; Pinch of celery salt and black pepper &middot; Celery stalk, pickled green beans, and a lemon wedge, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Fill a tall glass with ice. Add everything and stir well. Garnish generously. The garden is the garnish.</p>
+      </div>
+
+      <div class="recipe-item">
+        <div class="r-top"><span class="r-num">10</span><h3>Fine Line Mule</h3><span class="r-spirit">Vodka</span></div>
+        <p class="r-desc">Ginger on ginger. The vodka already has a ginger kick, and the ginger beer turns it all the way up.</p>
+        <p class="r-ing"><strong>Ingredients</strong>2 oz Fine Line Zero Proof Vodka &middot; 1/2 oz fresh lime juice &middot; 4 oz ginger beer &middot; Mint sprig and lime wheel, to garnish</p>
+        <p class="r-method"><strong>Method</strong>Fill a copper mug with crushed ice. Add the vodka and lime juice. Top with ginger beer and stir gently. Garnish with mint and lime.</p>
+      </div>
     </div>
 
-    <p style="text-align:center;color:var(--muted);margin-top:36px">More pours on Instagram, including the Garden Party Bloody Mary and Honey, I&rsquo;m Fine. Follow <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:var(--olive);font-weight:500">@drinkfineline</a> for a new recipe every week.</p>
+    <figure class="recipe-photo">
+      <img src="images/martini-v2.jpg" alt="A Fine Line Dirty Martini in a coupe glass against dark green velvet">
+      <figcaption>The Dirty Martini, poured with Fine Line Zero Proof Vodka. Recipe 05, above.</figcaption>
+    </figure>
+
+    <p style="text-align:center;color:#C9BFC9;margin-top:36px">A new recipe every week on Instagram. Follow <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:#E8A88C;font-weight:700">@drinkfineline</a> for the latest pours.</p>
   </div>
 </section>
 
 <!-- FOUNDER -->
-<section id="story" style="background:var(--paper)">
+<section class="founder-band" id="story">
   <div class="wrap">
     <div class="founder-grid">
-      <figure>
-        <img src="images/founder.jpg" alt="Beverly Beal Jr., founder of Fine Line Non-Alcoholic Spirits, holding a cocktail glass">
-        <figcaption>Beverly Beal Jr., Founder and CEO. Attorney, entrepreneur, and the woman behind the bottle.</figcaption>
-      </figure>
-      <div>
-        <h2 style="font-size:clamp(2.2rem,4.5vw,3.2rem);margin-bottom:20px">Nobody was making the drink I needed. So I made it myself.</h2>
+      <div class="founder-photos">
+        <figure>
+          <img src="images/beverly-bts-v2.jpg" alt="Beverly Beal Jr. smiling and holding a bottle of Fine Line at the bottling facility">
+          <figcaption>Beverly at the facility, hands on every batch. &ldquo;I don&rsquo;t just sign off on Fine Line. I&rsquo;m here every step of the way.&rdquo;</figcaption>
+        </figure>
+        <figure>
+          <img src="images/create-cultivate-v2.jpg" alt="Beverly Beal Jr. and her mother Beverly Beal Sr. smiling together at Create and Cultivate in Fine Line shirts">
+          <figcaption>Beverly and her mom at Create &amp; Cultivate LA. Family is the foundation of everything she builds.</figcaption>
+        </figure>
+      </div>
+      <div class="founder-copy">
+        <h2>Nobody was making the drink I needed. <span class="serif-i">So I made it myself.</span></h2>
         <p class="drop-cap">Beverly Beal Jr. spent years as an intellectual property attorney, protecting other people&rsquo;s brands. Then her own health forced a question she could not ignore. Diagnosed with Crohn&rsquo;s disease and ulcerative colitis, alcohol came off the table. But the dinners did not stop. The celebrations did not stop. The moments that call for a raised glass kept coming, and every option on the shelf asked her to settle for less.</p>
         <p>So she built the drink she needed. A zero-proof spirit with real flavor, real sophistication, and prebiotics working for her gut instead of against it. She invested her own money into developing the products, manufacturing the inventory, and building the brand from the ground up. The branding alone was redone about ten times before it felt right.</p>
         <div class="founder-quote">&ldquo;I wasn&rsquo;t looking to start a spirits brand. I was looking for better options. When I couldn&rsquo;t find them, I did what I always do. I built it.&rdquo;</div>
         <p>Fine Line is now pouring in Detroit, Atlanta, Los Angeles, and Washington DC. Beverly has taken the stage at Create &amp; Cultivate, spoken at the ESSENCE Festival of Culture, been featured on Fox 2 Detroit and Good Day DC, and landed on Hour Detroit&rsquo;s Best Dressed List for 2026.</p>
-        <p>She is also the co-owner of Detroit Brew-ti-ful Coffee House, the family coffee business she built with her mother, Beverly Beal Sr., and the founder of GiftBiz, a nonprofit that gives free resources to entrepreneurs. Ownership has always been the common thread.</p>
-        <p><a href="https://www.instagram.com/beverlyabeal" target="_blank" rel="noopener" style="color:var(--olive);font-weight:500">Follow Beverly @beverlyabeal</a></p>
+        <p>She is also the co-owner of Detroit Brew-ti-ful Coffee House, the family coffee business she built with her mother, Beverly Beal Sr., and the founder of GiftBiz, a nonprofit that gives free resources to entrepreneurs. Ownership has always been the common thread. She builds things that last, and she builds them for her community.</p>
+        <p><a href="https://www.instagram.com/beverlyabeal" target="_blank" rel="noopener" style="color:var(--rust);font-weight:700">Follow Beverly @beverlyabeal</a></p>
       </div>
     </div>
   </div>
@@ -529,8 +565,8 @@
 <section class="events-band" id="events">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Where we&rsquo;ve poured.</h2>
-      <p>Fine Line shows up where people gather. Festivals, happy hours, wellness expos, book bars, and dance parties. The first sip is usually followed by the same question: wait, this has no alcohol?</p>
+      <h2>Where we&rsquo;ve poured. <span class="serif-i">Come taste it for yourself.</span></h2>
+      <p>Fine Line shows up where people gather. Festivals, happy hours, wellness expos, book bars, and dance parties. The first sip is usually followed by the same question: wait, this has no alcohol? Follow <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:var(--rust);font-weight:700">@drinkfineline</a> for the next pop-up near you.</p>
     </div>
     <div class="event-list">
       <div class="event">
@@ -579,12 +615,12 @@
         <div class="e-place">Detroit, MI</div>
       </div>
     </div>
-    <p style="text-align:center;color:var(--muted);margin-top:36px">Want Fine Line at your event, pop-up, or tasting? <a href="#wholesale" style="color:var(--olive);font-weight:500">Tell us about it below.</a></p>
+    <p style="text-align:center;color:var(--muted);margin-top:36px">Want Fine Line at your event, pop-up, or tasting? <a href="#wholesale" style="color:var(--rust);font-weight:700">Tell us about it below.</a></p>
   </div>
 </section>
 
 <!-- FIND US -->
-<section id="find-us">
+<section class="find-band" id="find-us">
   <div class="wrap">
     <div class="sec-head">
       <h2>Find a bottle near you.</h2>
@@ -595,7 +631,7 @@
         <h3>Detroit</h3>
         <p><strong>The Shadow Gallery</strong><br>Stockist</p>
         <p><strong>Sip N Read Book Bar</strong><br>Stockist and pop-up partner</p>
-        <p><strong>Detroit Brew-ti-ful Coffee House</strong><br>Both locations</p>
+        <p><strong>Detroit Brew-ti-ful Coffee House</strong><br>Both locations, Plymouth Rd and McNichols Rd</p>
       </div>
       <div class="city">
         <h3>Washington, DC</h3>
@@ -606,22 +642,23 @@
         <h3>Los Angeles</h3>
         <p><strong>Linden LA</strong><br>Hollywood</p>
         <p>Our LA launch partner. Fine Line on the shelf and behind the bar.</p>
+        <p><strong>Dot Dot LA</strong><br>Pop-up partner</p>
       </div>
       <div class="city">
         <h3>Atlanta</h3>
         <p><strong>Now pouring</strong></p>
-        <p>Fine Line is officially in Atlanta. Follow <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:var(--olive);font-weight:500">@drinkfineline</a> for the latest stockist announcements.</p>
+        <p>Fine Line is officially in Atlanta. Follow <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener">@drinkfineline</a> for the latest stockist announcements.</p>
       </div>
     </div>
-    <p style="text-align:center;margin-top:40px"><a class="btn" href="https://drinkfineline.com/collections/all" target="_blank" rel="noopener">Order Online Instead</a></p>
+    <p style="text-align:center;margin-top:44px"><a class="btn btn-cream" href="https://drinkfineline.com/collections/all" target="_blank" rel="noopener">Order Online Instead</a></p>
   </div>
 </section>
 
 <!-- WHOLESALE -->
-<section id="wholesale" style="background:var(--paper)">
+<section id="wholesale">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Carry Fine Line.</h2>
+      <h2>Carry Fine Line. <span class="serif-i">Your customers are already asking for it.</span></h2>
       <p>Bars, restaurants, bottle shops, grocers, and event spaces. If your customers are asking for zero-proof options that actually taste like something, this is the bottle to put on your shelf.</p>
     </div>
     <div class="wholesale-grid">
@@ -629,10 +666,12 @@
         <h3>Wholesale cases from $150</h3>
         <p>We offer wholesale cases of Zero Proof Vodka, Zero Proof Tequila, and the Zero Proof Bundle, for Michigan retailers and nationwide accounts. Every case ships with shelf talkers and recipe cards so your team can talk about the product with confidence.</p>
         <h3>Why it moves</h3>
-        <p>Zero-proof is the fastest growing corner of the beverage world, and Fine Line is the only spirit in the category with prebiotics. Your customers get a premium bottle with a real story behind it. You get a product that starts conversations and brings people back.</p>
+        <p>Zero-proof is the fastest growing corner of the beverage world, and Fine Line is the only spirit in the category with prebiotics. Non-alcoholic spirits grew 41% in US retail last year while traditional alcohol sales declined. Your customers get a premium bottle with a real story behind it. You get a product that starts conversations and brings people back.</p>
         <h3>For bars and restaurants</h3>
         <p>Fine Line mixes like a full-proof spirit, so your bartenders can build it into the menu they already have. Palomas, margaritas, martinis, spritzes. No new training, no special glassware, just a better option for the growing number of guests who want one.</p>
-        <p>Already carrying us? Thank you. <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:var(--olive);font-weight:500">Tag @drinkfineline</a> and we will share your pour.</p>
+        <h3>Already on the shelf at</h3>
+        <p><strong>The Shadow Gallery</strong> and <strong>Sip N Read Book Bar</strong> in Detroit. <strong>Manifest</strong> in Washington DC. <strong>Linden LA</strong> in Hollywood. Join them.</p>
+        <p>Already carrying us? Thank you. <a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener" style="color:var(--rust);font-weight:700">Tag @drinkfineline</a> and we will share your pour.</p>
       </div>
       <form class="ws-form" onsubmit="event.preventDefault();document.getElementById('wsThanks').style.display='block';this.reset();">
         <h3>Wholesale inquiry</h3>
@@ -654,7 +693,7 @@
         <input id="ws-email" type="email" required>
         <label for="ws-msg">Anything else?</label>
         <textarea id="ws-msg" placeholder="Location, volume, timeline, or questions"></textarea>
-        <button class="btn" type="submit">Request Wholesale Pricing</button>
+        <button class="btn btn-rust" type="submit">Request Wholesale Pricing</button>
         <p class="form-note" id="wsThanks">Thank you. We will be in touch within two business days.</p>
       </form>
     </div>
@@ -665,7 +704,7 @@
 <section class="reviews-band">
   <div class="wrap">
     <div class="sec-head">
-      <h2 style="color:#F7F2E8">What people say after the first sip.</h2>
+      <h2>What people say after the first sip.</h2>
     </div>
     <div class="review-rows">
       <div class="review">
@@ -673,8 +712,16 @@
         <cite>BuzzFeed, 33 Items From Black-Owned Brands</cite>
       </div>
       <div class="review">
+        <blockquote>&ldquo;A set of zero-proof spirits infused with gut-friendly ingredients that&rsquo;ll taste like a party and a wellness retreat mixed in one.&rdquo;</blockquote>
+        <cite>BuzzFeed, 33 Good-Vibes-Only Purchases</cite>
+      </div>
+      <div class="review">
         <blockquote>&ldquo;The pause, the raised eyebrow, the &lsquo;wait, this is alcohol-free?&rsquo; Every single time, it made our day.&rdquo;</blockquote>
         <cite>Beverly Beal Jr., on first sips at Create &amp; Cultivate</cite>
+      </div>
+      <div class="review">
+        <blockquote>&ldquo;Light, refreshing, and impressive in a margarita. The tequila has a peppery spice kick.&rdquo;</blockquote>
+        <cite>Rohan Duggal, New York spirits reviewer</cite>
       </div>
       <div class="review">
         <blockquote>&ldquo;Refreshing and tasty. The girls loved it.&rdquo;</blockquote>
@@ -689,15 +736,15 @@
 </section>
 
 <!-- EMAIL SIGNUP -->
-<section>
-  <div class="wrap signup">
-    <h2>Join the list.</h2>
-    <p>New recipes, first taste of new flavors, event invitations, and early access to limited releases. One email a week, worth opening.</p>
+<section class="signup-band">
+  <div class="wrap">
+    <h2>Join the list. <span class="serif-i">First pour&rsquo;s on us.</span></h2>
+    <p>New mocktail recipes every week, first taste of new flavors, invitations to tastings and pop-ups in your city, and early access to limited releases. One email a week, worth opening.</p>
     <form class="signup-form" onsubmit="event.preventDefault();document.getElementById('signupThanks').style.display='block';this.reset();">
       <input type="email" placeholder="Your email address" required aria-label="Email address">
-      <button type="submit">Join</button>
+      <button type="submit">Join the List</button>
     </form>
-    <p class="form-note" id="signupThanks" style="text-align:center">Welcome to the list. Your first pour is on its way to your inbox.</p>
+    <p class="form-note" id="signupThanks" style="text-align:center;color:#fff">Welcome to the list. Your first pour is on its way to your inbox.</p>
     <p class="signup-note">No spam, no selling your info. Unsubscribe anytime.</p>
   </div>
 </section>
@@ -710,6 +757,7 @@
         <div class="foot-logo">FINE LINE<small>NON-ALCOHOLIC SPIRITS</small></div>
         <p style="margin-top:16px;max-width:300px">Zero-proof spirits with prebiotics. Born in Detroit, pouring nationwide. Social without sacrifice.</p>
         <p style="margin-top:16px"><a href="https://www.instagram.com/drinkfineline" target="_blank" rel="noopener">Instagram @drinkfineline</a></p>
+        <p><a href="https://www.instagram.com/beverlyabeal" target="_blank" rel="noopener">Beverly @beverlyabeal</a></p>
       </div>
       <div>
         <h4>Shop</h4>
@@ -720,7 +768,7 @@
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="#difference">Why Fine Line</a>
+        <a href="#movement">The Movement</a>
         <a href="#recipes">Recipes</a>
         <a href="#story">Our Story</a>
         <a href="#events">Events</a>
@@ -736,7 +784,7 @@
       </div>
     </div>
     <div class="foot-note">
-      <p>Demo redesign by Lexis Sapphire Studio. This is a concept website created to demonstrate a modern redesign. Not affiliated with Fine Line Non-Alcoholic Spirits. Product photos from drinkfineline.com. Prices shown match the live Shopify store as of November 2026. All purchases link to the official Fine Line Shopify store.</p>
+      <p>Demo redesign by Lexis Sapphire Studio. This is a concept website created to demonstrate a modern redesign. Not affiliated with Fine Line Non-Alcoholic Spirits. Product photos from drinkfineline.com and @drinkfineline on Instagram. Prices shown match the live Shopify store as of November 2026. All purchases link to the official Fine Line Shopify store.</p>
     </div>
   </div>
 </footer>
