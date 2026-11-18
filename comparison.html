@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fine Line Before &amp; After | Lexis Sapphire Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--olive:#565B2E;--deep:#2E3319;--cream:#F7F2E8;--paper:#EFE7D5;--ink:#23241A;--muted:#6E6A58;--line:#D8CFC0}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Outfit',sans-serif;background:var(--cream);color:var(--ink);line-height:1.65;font-weight:300}
+  h1,h2,h3{font-family:'Cormorant Garamond',serif;color:var(--deep);line-height:1.1}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+  header.top{text-align:center;padding:48px 0 32px}
+  header.top h1{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:8px}
+  header.top p{color:var(--muted);font-size:1.05rem;max-width:640px;margin:0 auto}
+  .panels{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-bottom:16px}
+  @media(max-width:860px){.panels{grid-template-columns:1fr}}
+  .panel-label{font-size:.85rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:12px}
+  .panel-label.before{color:#A84E2E}
+  .panel-label.after{color:var(--olive)}
+  .browser{border:1px solid var(--line);background:#fff;overflow:hidden}
+  .browser-bar{display:flex;align-items:center;gap:8px;background:#EDE8DA;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .dot{width:11px;height:11px;border-radius:50%}
+  .dot.r{background:#E0655A}.dot.y{background:#E8C05A}.dot.g{background:#7FB069}
+  .url-bar{flex:1;background:#fff;border:1px solid var(--line);border-radius:20px;padding:4px 14px;font-size:.82rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .before-shot{padding:28px 24px;min-height:800px;background:#FAF8F2}
+  .before-shot h3{font-size:1.6rem;margin-bottom:6px}
+  .before-shot .tagline{color:var(--muted);font-size:.95rem;margin-bottom:20px}
+  .before-shot .img-ph{display:flex;align-items:center;justify-content:center;background:#EDE8DA;color:var(--muted);font-size:.85rem;font-style:italic;height:220px;margin-bottom:16px;text-align:center;padding:16px}
+  .before-shot p{color:var(--muted);font-size:.95rem;margin-bottom:12px}
+  .before-shot .mini{font-size:.85rem;color:#A84E2E;font-weight:500}
+  iframe.demo-frame{width:100%;height:800px;border:none;display:block;background:#fff}
+  @media(max-width:860px){iframe.demo-frame{height:600px}.before-shot{min-height:0}}
+  .view-full{text-align:center;margin:20px 0 48px}
+  .btn{display:inline-block;background:var(--deep);color:var(--cream);padding:15px 32px;font-weight:500;font-size:.92rem;letter-spacing:.1em;text-transform:uppercase}
+  .btn:hover{background:var(--olive)}
+  .lists{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:48px 0;border-top:1px solid var(--line)}
+  @media(max-width:700px){.lists{grid-template-columns:1fr;gap:32px}}
+  .lists h2{font-size:1.8rem;margin-bottom:16px}
+  .lists ul{list-style:none}
+  .lists li{padding:8px 0;border-bottom:1px dotted var(--line);color:#4A4636}
+  .lists li::before{content:"\2014  ";color:var(--olive);font-weight:600}
+  .lists .missing li::before{content:"\2715  ";color:#A84E2E}
+  footer{text-align:center;padding:32px 0 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Fine Line: Before &amp; After</h1>
+    <p>Your Shopify store handles the sales. This new site handles the brand. Same checkout, same products, same prices, a front end that finally tells the Fine Line story.</p>
+  </header>
+
+  <div class="panels">
+    <div>
+      <div class="panel-label before">Before &mdash; Current Shopify Homepage</div>
+      <div class="browser">
+        <div class="browser-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url-bar">drinkfineline.com</span></div>
+        <div class="before-shot">
+          <h3>Fine Line Non-Alcoholic Spirits</h3>
+          <p class="tagline">Brand is more than just a product; it&rsquo;s a movement designed to educate, support, and inspire.</p>
+          <div class="img-ph">[ Hero image ]</div>
+          <p><strong>Discover our products</strong></p>
+          <div class="img-ph" style="height:140px">[ Product image ]</div>
+          <p>Proud to be 100% vegan-friendly, crafted without any byproducts.</p>
+          <div class="img-ph" style="height:140px">[ Product image ]</div>
+          <p>Crafted with care and infused with prebiotics to support gut health and overall wellness.</p>
+          <p class="mini">That is nearly the whole homepage. Mostly images, very little text. No recipes, no events, no founder story, no stockists, no wholesale page, no reason to stay.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="panel-label after">After &mdash; New Brand Site (Live Preview, Scroll to Explore)</div>
+      <div class="browser">
+        <div class="browser-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url-bar">rishaofficial.github.io/fine-line-demo</span></div>
+        <iframe class="demo-frame" src="index.html" title="Fine Line demo website"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="view-full">
+    <a class="btn" href="index.html">View Full Demo</a>
+  </div>
+
+  <div class="lists">
+    <div class="missing">
+      <h2>What&rsquo;s Missing Now</h2>
+      <ul>
+        <li>No product descriptions or flavor notes on the homepage</li>
+        <li>No mocktail recipes anywhere on the site</li>
+        <li>No events page, despite a full calendar of tastings and pop-ups</li>
+        <li>No founder story on the homepage</li>
+        <li>No stockist or where-to-buy page</li>
+        <li>No wholesale page for retailers</li>
+        <li>No reviews or press mentions</li>
+        <li>No email signup to build a list</li>
+        <li>Homepage is mostly images with minimal text</li>
+        <li>Nothing that tells a first-time visitor why Fine Line is different</li>
+      </ul>
+    </div>
+    <div>
+      <h2>What&rsquo;s Included in the Redesign</h2>
+      <ul>
+        <li>Full product stories with real flavor notes and prices</li>
+        <li>Six real mocktail recipes from your own Instagram</li>
+        <li>Events timeline: Create &amp; Cultivate, Fox 2, Good Day DC, and more</li>
+        <li>Beverly&rsquo;s founder story, in her own words</li>
+        <li>Where to Buy: Detroit, DC, LA, and Atlanta stockists</li>
+        <li>Wholesale section with inquiry form, cases from $150</li>
+        <li>Reviews from BuzzFeed and real first-sip reactions</li>
+        <li>Email signup to grow your list</li>
+        <li>Every Shop button links to your real Shopify product pages</li>
+        <li>Shopify keeps handling checkout, shipping, inventory, and taxes</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Demo redesign by Lexis Sapphire Studio. Concept website created to demonstrate a modern redesign. Not affiliated with Fine Line Non-Alcoholic Spirits.</p>
+  </footer>
+</div>
+</body>
+</html>
