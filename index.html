@@ -174,9 +174,7 @@
   .founder-band{background:var(--paper)}
   .founder-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:start}
   .founder-photos{display:flex;flex-direction:column;gap:16px}
-  .founder-photos img{width:100%;border-radius:20px;object-fit:cover}
-  .founder-photos img:first-child{height:480px;object-position:top}
-  .founder-photos img:last-child{height:320px}
+  .founder-photos img{width:100%;height:auto;border-radius:20px;display:block}
   .founder-photos figcaption{font-size:.85rem;color:var(--muted);font-style:italic;margin-top:8px}
   .founder-copy h2{font-size:clamp(2.2rem,4.5vw,3.2rem);margin-bottom:22px}
   .founder-copy h2 .serif-i{font-size:1.05em}
@@ -185,8 +183,7 @@
   .founder-quote{font-family:'Instrument Serif',serif;font-size:clamp(1.4rem,2.8vw,1.8rem);line-height:1.4;font-style:italic;color:var(--olive-deep);margin:28px 0;padding:24px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
   @media(max-width:860px){
     .founder-grid{grid-template-columns:1fr;gap:32px}
-    .founder-photos img:first-child{height:380px}
-    .founder-photos img:last-child{height:260px}
+
   }
 
   /* ---------- events ---------- */
